@@ -13,6 +13,9 @@
 		743352BD23067A6C00A4812D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743352BC23067A6C00A4812D /* Assets.xcassets */; };
 		743352C023067A6C00A4812D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743352BF23067A6C00A4812D /* Preview Assets.xcassets */; };
 		743352C323067A6C00A4812D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743352C123067A6C00A4812D /* LaunchScreen.storyboard */; };
+		743352CB23067A7C00A4812D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743352CA23067A7C00A4812D /* User.swift */; };
+		743352CD23067AAC00A4812D /* NetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743352CC23067AAC00A4812D /* NetService.swift */; };
+		743352D223067D2100A4812D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743352D123067D2100A4812D /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		743352BF23067A6C00A4812D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		743352C223067A6C00A4812D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		743352C423067A6C00A4812D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743352CA23067A7C00A4812D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		743352CC23067AAC00A4812D /* NetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetService.swift; sourceTree = "<group>"; };
+		743352D123067D2100A4812D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				743352B623067A6C00A4812D /* AppDelegate.swift */,
 				743352B823067A6C00A4812D /* SceneDelegate.swift */,
-				743352BA23067A6C00A4812D /* ContentView.swift */,
+				743352D023067D0300A4812D /* Service */,
+				743352CF23067CF400A4812D /* Model */,
+				743352D32306800A00A4812D /* ViewModel */,
+				743352CE23067CEA00A4812D /* View */,
 				743352BC23067A6C00A4812D /* Assets.xcassets */,
 				743352C123067A6C00A4812D /* LaunchScreen.storyboard */,
 				743352C423067A6C00A4812D /* Info.plist */,
@@ -73,6 +82,38 @@
 				743352BF23067A6C00A4812D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		743352CE23067CEA00A4812D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				743352BA23067A6C00A4812D /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		743352CF23067CF400A4812D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				743352CA23067A7C00A4812D /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		743352D023067D0300A4812D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				743352CC23067AAC00A4812D /* NetService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		743352D32306800A00A4812D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				743352D123067D2100A4812D /* UserViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743352CB23067A7C00A4812D /* User.swift in Sources */,
+				743352D223067D2100A4812D /* UserViewModel.swift in Sources */,
 				743352B723067A6C00A4812D /* AppDelegate.swift in Sources */,
+				743352CD23067AAC00A4812D /* NetService.swift in Sources */,
 				743352B923067A6C00A4812D /* SceneDelegate.swift in Sources */,
 				743352BB23067A6C00A4812D /* ContentView.swift in Sources */,
 			);

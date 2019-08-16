@@ -9,22 +9,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var userListVM = UserListViewModel()
-    @State private var page = 1
+    
     var body: some View {
         NavigationView {
-            List(self.userListVM.users, id: \.name) { user in
-                Text(user.name)
-            }
-            .navigationBarTitle("Users List")
-            .navigationBarItems(leading:
-                1 < self.page ? Button("<<") {
-                    withAnimation(.default) {self.page -= 1}
-                    self.userListVM.nextPage(page: self.page)} : nil,
-                                trailing:
-                self.userListVM.users.count > self.page ? Button(">>") {
-                    withAnimation(.default) {self.page += 1}
-                    self.userListVM.nextPage(page: self.page)} : nil)
+            UsersListView()
         }
     }
 }

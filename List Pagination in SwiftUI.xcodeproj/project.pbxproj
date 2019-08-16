@@ -16,6 +16,7 @@
 		743352CB23067A7C00A4812D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743352CA23067A7C00A4812D /* User.swift */; };
 		743352CD23067AAC00A4812D /* NetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743352CC23067AAC00A4812D /* NetService.swift */; };
 		743352D223067D2100A4812D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743352D123067D2100A4812D /* UserViewModel.swift */; };
+		743352D52306B64400A4812D /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743352D42306B64400A4812D /* UsersListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		743352CA23067A7C00A4812D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		743352CC23067AAC00A4812D /* NetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetService.swift; sourceTree = "<group>"; };
 		743352D123067D2100A4812D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		743352D42306B64400A4812D /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				743352D123067D2100A4812D /* UserViewModel.swift */,
+				743352D42306B64400A4812D /* UsersListView.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				743352CD23067AAC00A4812D /* NetService.swift in Sources */,
 				743352B923067A6C00A4812D /* SceneDelegate.swift in Sources */,
 				743352BB23067A6C00A4812D /* ContentView.swift in Sources */,
+				743352D52306B64400A4812D /* UsersListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
